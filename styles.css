@@ -1,0 +1,83 @@
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient( #242074,#201f47)
+}
+
+button {
+  border-radius: 100px;
+  border: none;
+  width: 11vw;
+  height: 7vh;
+  margin: 0.5em;
+  color: whitesmoke;
+}
+
+.button--crimson__gradient {
+  background: linear-gradient(to right, #ff7eae, lightsalmon)
+}
+
+.button--cyan__gradient, .text--cyan__gradient {
+  background: linear-gradient(to right, cyan, royalblue)
+}
+
+.text--cyan__gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 1.8em;
+}
+
+h4 {
+  font-family: "Open-Sans", sans-serif;
+  font-weight: normal;
+  color: whitesmoke;
+  margin-top: 0.5em;
+  margin-bottom: 3em;
+}
+
+
+.top--login__window {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  top: 2vw;
+  left: 11vw;
+}
+
+
+
+/* Material Icons */
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
