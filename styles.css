@@ -3,57 +3,106 @@
   top: 0px;
   left: 0px;
   width: 100vw;
-  height: 100vh;
-  background: linear-gradient( #242074,#201f47)
+  height: 5780px;
+  padding: 8vh 9vw;
+}
+
+.body--font {
+  font-family: "Open-Sans", sans-serif;
+  font-weight: normal;
+  color: #babde8;
 }
 
 button {
   border-radius: 100px;
   border: none;
-  width: 11vw;
-  height: 7vh;
+  width: 8vw;
+  height: 6vh;
   margin: 0.5em;
   color: whitesmoke;
 }
 
-.button--crimson__gradient {
+.codewindow--top__container {
+  width: 32vw;
+  height: 80vh;
+  border-radius: 10px;
+  position: relative;
+  top: 126vh;
+  overflow: hidden;
+}
+
+.codewindow--top__nav {
+  height: 2.25em;
+}
+
+.fa-github {
+  color: #312c80;
+  position: absolute;
+  left: 59%;
+  top: 62%;
+}
+
+.gradient--medblue__black {
+  background: linear-gradient( #383a9f,#201f47)
+}
+
+.gradient--darkblue__black {
+  background: linear-gradient( #242074,#201f47)
+}
+
+.gradient--crimson__salmon {
   background: linear-gradient(to right, #ff7eae, lightsalmon)
 }
 
-.button--cyan__gradient, .text--cyan__gradient {
+.gradient--blue__cyan {
+  background: linear-gradient(to right, royalblue, cyan)
+}
+
+.gradient--cyan__blue {
   background: linear-gradient(to right, cyan, royalblue)
 }
 
-.text--cyan__gradient {
+.text--gradient {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 h1 {
-  color: white;
-  font-weight: bold;
   margin-bottom: 0;
   font-size: 1.8em;
 }
 
 h4 {
-  font-family: "Open-Sans", sans-serif;
-  font-weight: normal;
-  color: whitesmoke;
   margin-top: 0.5em;
-  margin-bottom: 3em;
+  margin-bottom: 1.75em;
 }
 
+.logo--raise {
+  position: relative;
+  top: -10px;
+  left: 5px;
+}
+
+.logo--top {
+  font-size: 1.05em;
+}
+
+.titles--font {
+  color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
 
 .top--login__window {
-  font-family: "Lato", sans-serif;
   position: absolute;
-  top: 2vw;
-  left: 11vw;
+  top: 36vh;
 }
 
 
+.material-icons.icon--2em {
+  font-size: 2em;
+}
 
 /* Material Icons */
 
