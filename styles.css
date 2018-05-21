@@ -53,8 +53,9 @@ button {
 .fa-github {
   color: #312c80;
   position: absolute;
-  left: 59%;
-  top: 62%;
+  left: 56%;
+  top: 67%;
+  font-size: 12em;
 }
 
 .gradient--medblue__black {
