@@ -18,7 +18,7 @@
   position: relative;
   width: 33vw;
   height: 100vh;
-  top: 27vh;
+  top: 57vh;
   left: 45vw;
 }
 
@@ -36,7 +36,7 @@ button {
   height: 100vh;
   border-radius: 10px;
   position: relative;
-  top: 126vh;
+  top: 156vh;
   overflow: hidden;
 }
 
